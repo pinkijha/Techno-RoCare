@@ -4,7 +4,7 @@ const TermsCondition = () => {
   return (
     <div>
       <h1 className='text-[24px] font-semibold text-[#263138] md:ml-7 md:my-5  '>Terms & Condition and Privacy Policy</h1>
-      <ul className='ml-16 mr-10 list-disc text-justify text-[16px] space-y-1'>
+      <ul className='ml-16 mr-10  list-disc text-justify text-[18px] text-[#263138]  space-y-1'>
       <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis voluptates enim odio repellendus, itaque illum tempora saepe distinctio tenetur, magnam autem dignissimos impedit sit est rem voluptate quasi doloremque nemo.</li>
       <li>Dolorem officia maiores quis optio nesciunt molestiae sed recusandae explicabo veniam perspiciatis, hic aliquam ullam beatae. Est enim nostrum obcaecati vitae inventore numquam adipisci. Quae amet deserunt quia beatae labore.</li>
       <li>Iusto impedit a architecto iure corrupti quidem dolorum voluptatum expedita autem, hic rem voluptas soluta optio tempora, ab exercitationem non. Nulla voluptatibus neque placeat pariatur explicabo esse, voluptas fugiat qui?</li>
