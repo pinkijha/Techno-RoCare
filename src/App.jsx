@@ -5,6 +5,7 @@ import TermsCondition from "./components/TermsCondition"
 import About from "./components/About"
 import Contact from "./components/Contact"
 import RegisterProfessional from "./components/RegisterProfessional"
+import ChatWithUs from "./components/ChatWithUs"
 
 const Services = () => <h1>Services</h1>
 const Products = () => <h1>Products</h1>
@@ -24,6 +25,7 @@ function App() {
         <Route path="/about-us" element={<About/>} />
         <Route path="/contact-us" element={<Contact/>} />
         <Route path="/register-professional" element={<RegisterProfessional/>} />
+        <Route path="/chat" element={<ChatWithUs/>} />
 
       </Routes>
       </Layout>
