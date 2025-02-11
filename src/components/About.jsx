@@ -6,7 +6,7 @@ const About = () => {
     <div className='flex flex-col m-2'>
       <div className='flex items-center md:my-5 justify-between'>
         <hr className='h-[3px] bg-[#606060] border-none font-bold w-[670px] ' />
-        <p className='font-semibold text-2xl'>About Us</p>
+        <p className='font-semibold text-[25px]'>About Us</p>
         <hr className='h-[3px] bg-[#606060] border-none font-bold w-[670px]  '  />
       </div>
 
@@ -25,7 +25,7 @@ const About = () => {
       <div className=" mx-auto p-6 text-gray-800">
       {/* Our Mission Section */}
       <section className=" p-2 ">
-        <h2 className="text-[32px] font-bold">Our Mission</h2>
+        <h2 className="text-[25px] font-semibold">Our Mission</h2>
         <p className='h-[72px ] text-[22px]  md:mt-3'>
           Our mission is to provide every customer with pure, fresh water, helping to improve the
           quality of life for our community, one drop at a time.
@@ -34,7 +34,7 @@ const About = () => {
 
       {/* Core Values Section */}
       <section className="mt-8 p-2">
-        <h2 className="text-2xl font-bold text-[32px]">Core Values</h2>
+        <h2 className="text-2xl font-semibold text-[25px]">Core Values</h2>
         <ul className="space-y-2 mt-2  text-[22px] md:mt-3">
           {[
             "Integrity: We believe in honest, transparent service with no hidden fees.",
@@ -52,7 +52,7 @@ const About = () => {
 
       {/* Why Choose Us Section */}
       <section className="mt-8 p-2">
-        <h2 className="text-2xl font-bold text-[32px]">Why Choose Us?</h2>
+        <h2 className="text-2xl font-semibold text-[25px]">Why Choose Us?</h2>
         <ul className="space-y-2 mt-2 text-[22px] md:mt-3">
           {[
             "Expert Technicians: Certified and experienced professionals ready to assist.",
@@ -71,7 +71,7 @@ const About = () => {
 
       {/* Awards and Certifications */}
       <section className="mt-8  p-2">
-        <h2 className="text-2xl font-bold text-[32px]">Awards and Certifications</h2>
+        <h2 className="text-2xl font-semibold text-[25px]">Awards and Certifications</h2>
         <p className=' text-[22px] md:mt-3'>
           We are proud to be certified by [Certification Body], recognized for our commitment to excellence in water
           treatment and purification services.
@@ -80,7 +80,7 @@ const About = () => {
 
       {/* Contact Us Section */}
       <section className="mt-8 p-2">
-        <h2 className="text-2xl font-bold text-[32px]">Contact Us</h2>
+        <h2 className="text-2xl font-semibold text-[25px]">Contact Us</h2>
         <p className=' text-[22px] md:mt-3'>
           Ready to experience the benefits of purified water? Get in touch with us today for a free consultation, and let us
           help you find the perfect solution for your water needs.
