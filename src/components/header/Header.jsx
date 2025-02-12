@@ -14,7 +14,7 @@ const Header = () => {
         <nav className="flex text-[#263138]  font-semibold items-center space-x-10 md:p-1">
           <NavLink to='/'>
             <img
-              className="md:h-[40px] md:w-[150px]  cursor-pointer"
+              className="border-none md:h-[40px] md:w-[150px]  cursor-pointer"
               src={logo}
             />
           </NavLink>
