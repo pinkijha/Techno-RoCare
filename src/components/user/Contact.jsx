@@ -1,5 +1,5 @@
 import React from 'react'
-import { recommendedVideoItems } from '../utils/constant'
+import { recommendedVideoItems } from '../../utils/constant'
 import { FaPhone } from "react-icons/fa6";
 import { PiChatsCircle } from "react-icons/pi";
 import { NavLink } from 'react-router-dom';

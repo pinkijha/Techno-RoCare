@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import botImg from '../assets/userchat.png';
-import userImg from '../assets/technokrateBot.png';
+import botImg from '../../assets/userchat.png';
+import userImg from '../../assets/technokrateBot.png';
 import { IoIosAttach } from "react-icons/io";
 import { CiMail } from "react-icons/ci";
 

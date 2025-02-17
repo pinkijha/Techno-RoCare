@@ -1,6 +1,6 @@
 import React from "react";
-import { footerItems } from "../../utils/constant";
-import logo from "../../assets/logo.png"
+import { footerItems } from "../../../utils/constant";
+import logo from "../../../assets/logo.png"
 import { NavLink } from "react-router-dom";
 
 

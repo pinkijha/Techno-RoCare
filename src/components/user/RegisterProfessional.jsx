@@ -1,5 +1,5 @@
 import React from 'react'
-import Technician from '../assets/Technician.png';
+import Technician from '../../assets/Technician.png';
 import { LuSmile } from "react-icons/lu";
 import { FiUser } from "react-icons/fi";
 import { FiDollarSign } from "react-icons/fi";
