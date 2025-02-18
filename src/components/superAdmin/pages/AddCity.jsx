@@ -2,7 +2,7 @@ import React from 'react'
 
 const AddCity = () => {
   return (
-    <div>
+    <div className=''>
       city
     </div>
   )

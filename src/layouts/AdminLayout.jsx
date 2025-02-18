@@ -12,17 +12,18 @@ const Dashboard = () => <h1>Dashboard</h1>
 
 const AdminLayout = () => {
   return (
-    <div className="flex">
+    <div className="flex ">
     {/* Sidebar */}
     <Sidebar />
 
     {/* Main Content */}
-    <div className="flex-grow">
+    <div className="flex-grow ">
       {/* Header */}
       <Header />
 
       {/* Admin Routes */}
-      <Routes>
+     <div className="p-5 ">
+     <Routes>
         <Route path="/" element={<Dashboard />} />
         <Route path="/dashboard" element={<Dashboard />} />
         <Route path="/city" element={<AddCity />} />
@@ -31,6 +32,7 @@ const AdminLayout = () => {
         <Route path="/time-slot" element={<AddTimeSlot />} />
         <Route path="/banner" element={<Banner />} />
       </Routes>
+     </div>
     </div>
   </div>
   );
