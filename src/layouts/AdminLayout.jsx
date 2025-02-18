@@ -13,7 +13,7 @@ const Dashboard = () => <h1>Dashboard</h1>
 
 const AdminLayout = () => {
   return (
-    <div className="flex ">
+    <div className="flex bg-[#EBF2F1]">
     {/* Sidebar */}
     <Sidebar />
 

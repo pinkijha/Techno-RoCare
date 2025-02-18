@@ -22,7 +22,7 @@ const Header = () => {
   // Get the current page title or default to "Page Not Found"
   const currentPage = pageTitles[location.pathname] || "Page Not Found";
   return (
-    <div className='flex border-b-2 pr-5 border-gray-400 shadow-lg h-[74px] justify-between items-center'>
+    <div className='flex border-b-2 bg-white pr-5 border-gray-400 shadow-lg h-[74px] justify-between items-center'>
       <div className='p-4'>
         <h1 className='text-[24px] font-medium '>{currentPage}</h1>
         </div>
