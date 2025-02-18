@@ -7,6 +7,7 @@ import Banner from "../components/superAdmin/pages/Banner";
 import AddTimeSlot from "../components/superAdmin/pages/AddTimeSlot";
 import Header from "../components/superAdmin/header/Header";
 import Sidebar from "../components/superAdmin/sidebar/Sidebar";
+import Orders from "../components/superAdmin/pages/Orders";
 
 const Dashboard = () => <h1>Dashboard</h1>
 
@@ -31,6 +32,7 @@ const AdminLayout = () => {
         <Route path="/services" element={<AddServices />} />
         <Route path="/time-slot" element={<AddTimeSlot />} />
         <Route path="/banner" element={<Banner />} />
+        <Route path="/orders" element={<Orders/>} />
       </Routes>
      </div>
     </div>

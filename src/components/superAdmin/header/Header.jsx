@@ -14,6 +14,9 @@ const Header = () => {
     "/admin/city": "Add City",
     "/admin/product": "Add Product",
     "/admin/services": "Add Services",
+    "/admin/orders": "Add Orders",
+    
+
   };
 
   // Get the current page title or default to "Page Not Found"
