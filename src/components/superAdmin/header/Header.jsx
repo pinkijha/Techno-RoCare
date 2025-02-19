@@ -14,7 +14,11 @@ const Header = () => {
     "/admin/city": "Add City",
     "/admin/product": "Add Product",
     "/admin/services": "Add Services",
+    '/admin/timeslot': 'Add Timeslot & Date',
     "/admin/orders": "Add Orders",
+    "/admin/banner-list": "Banner List",
+    '/admin/send-notification': 'Push Notification',
+    '/admin/pending-orders': 'Pending Orders',
     
 
   };

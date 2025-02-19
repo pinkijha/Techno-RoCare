@@ -151,7 +151,7 @@ export const sidebarItems = [
                 id: 1,
                 name: 'Pending Orders',
                 icon: <TbCalendarTime />,
-                path:'/admin/orders',
+                path:'/admin/pending-orders',
             },
             {
                 id: 2,
@@ -233,7 +233,7 @@ export const sidebarItems = [
                 id: 2,
                 name: 'Banner',
                 icon: <CiImageOn />,                
-                path:'/admin/banner',
+                path:'/admin/banner-list',
             },
             {
                 id: 3,

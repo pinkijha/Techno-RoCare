@@ -9,16 +9,16 @@ const AddProduct = () => {
   };
 
   return (
-    <div className=" bg-gray-100 p-6 rounded-xl text-[#263138] space-y-6 shadow-sm">
+    <div className="h-screen bg-white p-6 rounded-xl text-[#263138] shadow-sm">
       <label className="block font-semibold mb-1">Product Name</label>
       <input
         type="text"
         placeholder="Enter Product Name"
-        className="w-full p-2 mb-4 border rounded"
+        className="w-full p-2 border border-gray-300 rounded-md focus:outline-none focus:ring-1 focus:ring-blue-300 mb-5"
       />
 
       <label className="block font-semibold mb-1">Product Category</label>
-      <select className="w-full p-2 mb-4 border rounded">
+      <select className="w-full p-2 border border-gray-300 rounded-md focus:outline-none focus:ring-1 focus:ring-blue-300 mb-5">
         <option>Select</option>
       </select>
 
@@ -26,14 +26,14 @@ const AddProduct = () => {
       <input
         type="text"
         placeholder="Enter Price"
-        className="w-full p-2 mb-4 border rounded"
+        className="w-full p-2 border border-gray-300 rounded-md focus:outline-none focus:ring-1 focus:ring-blue-300 mb-5"
       />
 
       <label className="block font-semibold mb-1">Warranty</label>
       <input
         type="text"
         placeholder="Enter Warranty"
-        className="w-full p-2 mb-4 border rounded"
+        className="w-full p-1 border border-gray-300 rounded-md focus:outline-none focus:ring-1 focus:ring-blue-300 mb-5"
       />
 
       <label className="block font-semibold mb-1">Product Image</label>
@@ -41,7 +41,7 @@ const AddProduct = () => {
         <input
           key={index}
           type="file"
-          className="w-full p-2 mb-2 border rounded"
+          className="w-full p-2 border border-gray-300 rounded-md focus:outline-none focus:ring-1 focus:ring-blue-300 mb-5"
         />
       ))}
       <button onClick={addMoreImage} className="text-blue-600 text-sm mb-4">
@@ -51,7 +51,7 @@ const AddProduct = () => {
       <label className="block font-semibold mb-1">Product Description</label>
       <textarea
         placeholder="Write Product Description"
-        className="w-full p-2 border rounded"
+        className="w-full p-1 border border-gray-300 rounded-md focus:outline-none focus:ring-1 focus:ring-blue-300 mb-2"
         rows="4"
       ></textarea>
 

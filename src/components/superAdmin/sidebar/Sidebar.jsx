@@ -5,12 +5,12 @@ import { NavLink } from 'react-router-dom'
 
 const Sidebar = () => {
   return (
-    <div className='flex flex-col bg-white md:w-[270px] overflow-y-auto h-screen scrollbar-hidden  pb-4 space-y-4  shadow-lg border-r-2 border-gray-400'>
+    <div className='flex flex-col bg-white md:w-[270px]  pb-4 space-y-4  shadow-lg border-r-2 border-gray-400'>
       <div className='ml-2 border-b-2 border-gray-400'>
         <img className='py-4 md:ml-3 h-[73px]'
         src={logo} alt='logo' />
       </div>
-      <div className='flex flex-col md:mx-6'>
+      <div className='flex flex-col md:mx-6 overflow-y-auto h-screen scrollbar-hidden '>
       {sidebarItems.map((group)=> (
        <div className=''>
         <h1 className='text-[16px] font-semibold '>{group.groupName}</h1>
