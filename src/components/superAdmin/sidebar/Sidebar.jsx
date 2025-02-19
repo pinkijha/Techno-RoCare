@@ -5,7 +5,7 @@ import { NavLink } from 'react-router-dom'
 
 const Sidebar = () => {
   return (
-    <div className='flex flex-col bg-white md:w-[270px] pb-4 space-y-4 h-full shadow-lg border-r-2 border-gray-400'>
+    <div className='flex flex-col bg-white md:w-[270px] overflow-y-auto h-screen scrollbar-hidden  pb-4 space-y-4  shadow-lg border-r-2 border-gray-400'>
       <div className='ml-2 border-b-2 border-gray-400'>
         <img className='py-4 md:ml-3 h-[73px]'
         src={logo} alt='logo' />
@@ -14,12 +14,12 @@ const Sidebar = () => {
       {sidebarItems.map((group)=> (
        <div className=''>
         <h1 className='text-[16px] font-semibold '>{group.groupName}</h1>
-        {group.groupItems.map(({id, name, icon, path})=>(
-           <NavLink to={path}>
-             <ul key={id} className='flex space-y-2 items-center text-[16px] hover:rounded-xl hover:bg-[#7EC1B1] hover:text-white
+        {group.groupItems.map(({id, name, icon, path, color})=>(
+           <NavLink to={path} className="items-center">
+             <ul key={id} className='flex space-y-2 text-[15px] hover:rounded-xl hover:bg-[#7EC1B1] hover:text-white
             font-semibold text-[#7EC1B1] space-x-4 p-2'>
-                <li className='text-xl cursor-pointer'>{icon}</li>
-                <li className='cursor-pointer'>{name}</li>
+                <li className={`text-xl cursor-pointer ${color ==='red' ? 'text-[#C17E7F]': '' }`}>{icon}</li>
+                <li className={`${color ==='red' ? 'text-[#C17E7F]': '' } cursor-pointer`}>{name}</li>
             </ul>
            </NavLink>
         ))}

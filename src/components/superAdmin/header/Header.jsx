@@ -33,14 +33,14 @@ const Header = () => {
         className=' focus:outline-none focus:ring-2 bg-[#EBF2F1] focus:ring-blue-200  
         border border-gray-400 md:px-9 md:py-2  md:w-[300px] rounded-full' />              
        </div>
-       <div className='relative flex items-center justify-between '>
+       <div className='relative flex items-center justify-between  cursor-pointer'>
        <span className=' text-3xl px-4 border-l-2 border-r-2  border-gray-400'><LuBell /></span>
        <span className='absolute z-10 text-[10px] -top-2 right-5 bg-red-600 text-white rounded-full px-1 py-0.5'>2</span>
        </div>
 
        <div className='flex items-center justify-between'>
         <div>
-            <img src={user} className='w-[] h-[] '
+            <img src={user} className='w-[] h-[]  cursor-pointer'
              alt='user-icon '/>
         </div>
         <div className=''>
@@ -51,7 +51,7 @@ const Header = () => {
       {/* Button to open dropdown (only shows arrow) */}
       <button 
         onClick={() => setIsOpen(!isOpen)} 
-        className=" px-4 py-2 rounded-md flex items-center"
+        className=" px-4 py-2 rounded-md flex cursor-pointer items-center"
       >
         <IoIosArrowDown />
       </button>

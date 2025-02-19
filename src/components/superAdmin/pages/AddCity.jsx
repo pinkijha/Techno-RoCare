@@ -2,7 +2,7 @@ import React from 'react'
 
 const AddCity = () => {
   return (
-    <div className="min-h-screen flex rounded-xl shadow-sm  bg-gray-50 ">
+    <div className="max-h-screen flex rounded-xl shadow-sm  bg-gray-50 ">
     <div className="p-6 w-full max-w-3xl ">
       <h2 className="text-lg font-semibold text-gray-700 mb-2">City Name</h2>
       <input

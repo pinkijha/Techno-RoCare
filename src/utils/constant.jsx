@@ -8,10 +8,17 @@ import video1 from '../assets/v1.png'
 import video2 from '../assets/v2.png'
 import video3 from '../assets/v3.png'
 import video4 from '../assets/v4.png'
-import { LuMapPin, LuLayoutDashboard } from "react-icons/lu";
-import { GoPeople } from "react-icons/go";
-import { GrUserWorker } from "react-icons/gr";
+import { LuMapPin, LuLayoutDashboard, LuCalendarClock, LuUsers   } from "react-icons/lu";
+import { GoPeople, GoGear  } from "react-icons/go";
+import { GrUserWorker, GrMapLocation } from "react-icons/gr";
 import { FaHandshakeSimple, FaHandsHoldingCircle, FaGears } from "react-icons/fa6";
+import { CiUser, CiImageOn } from "react-icons/ci";
+import { IoIosLogOut, IoMdHelpCircleOutline  } from "react-icons/io";
+import { BiBell, BiSolidOffer } from "react-icons/bi";
+import { FiMessageCircle } from "react-icons/fi";
+import { MdOutlinePayments, MdOutlineInventory2, MdOutlineCancel  } from "react-icons/md";
+import { CgList } from "react-icons/cg";
+import { TbCalendarWeek, TbCalendarTime, TbCalendarCheck } from "react-icons/tb";
 
 
 export const footerItems = [
@@ -143,19 +150,19 @@ export const sidebarItems = [
             {
                 id: 1,
                 name: 'Pending Orders',
-                icon: <GoPeople />,
+                icon: <TbCalendarTime />,
                 path:'/admin/orders',
             },
             {
                 id: 2,
                 name: 'Complete Orders',
-                icon: <GrUserWorker />,
+                icon: <TbCalendarCheck />,
                 path:'/admin/orders',
             },
             {
                 id: 3,
                 name: 'Cancelled Orders',
-                icon: <FaHandshakeSimple />,                
+                icon: <MdOutlineCancel />,                
                 path:'/admin/orders',
             },
         ],
@@ -167,21 +174,21 @@ export const sidebarItems = [
             {
                 id: 1,
                 name: 'Pending Services',
-                icon: <GoPeople />,
+                icon: <LuCalendarClock />,
                 path:'/admin/pending-services',
 
             },
             {
                 id: 2,
                 name: 'Technicians Activity',
-                icon: <GrUserWorker />,
+                icon: <GrMapLocation />,
                 path:'/admin/technician-activity',
 
             },
             {
                 id: 3,
                 name: 'Technicians Monitor',
-                icon: <FaHandshakeSimple />,
+                icon: <CgList />,
                 path:'/admin/technician-monitor',
 
             },
@@ -194,20 +201,106 @@ export const sidebarItems = [
             {
                 id: 1,
                 name: 'Service List',
-                icon: <GoPeople />,                
+                icon: <CgList />,                
                 path:'/admin/service-list',
             },
             {
                 id: 2,
                 name: 'Existing Client List',
-                icon: <GrUserWorker />,                
+                icon: <LuUsers />,                
                 path:'/admin/client-list',
             },
             {
                 id: 3,
                 name: 'Partner Payout List',
-                icon: <FaHandshakeSimple />,
+                icon: <TbCalendarWeek />,
                 path:'/admin/payout-list',
+
+            },
+        ],
+
+    },
+    {
+        groupName: 'Others',
+        groupItems: [
+            {
+                id: 1,
+                name: 'Offers',
+                icon: <BiSolidOffer />,                
+                path:'/admin/offer',
+            },
+            {
+                id: 2,
+                name: 'Banner',
+                icon: <CiImageOn />,                
+                path:'/admin/banner',
+            },
+            {
+                id: 3,
+                name: 'Testimonial',
+                icon: <FiMessageCircle />,
+                path:'/admin/payout-list',
+
+            },
+            {
+                id: 4,
+                name: 'Timeslot & Date List',
+                icon: <LuCalendarClock />,
+                path:'/admin/timeslot',
+
+            },
+            {
+                id: 5,
+                name: 'Send Notification',
+                icon: <BiBell/>,
+                path:'/admin/send-notification',
+
+            },
+            {
+                id: 6,
+                name: 'Payment Gateway',
+                icon: <MdOutlinePayments />,
+                path:'/admin/payment',
+
+            },
+            {
+                id: 7,
+                name: 'Help & Support',
+                icon: <IoMdHelpCircleOutline />,
+                path:'/admin/help-support',
+
+            },
+            {
+                id: 8,
+                name: 'Inventory Management',
+                icon: <MdOutlineInventory2 />,
+                path:'/admin/inventory-management',
+
+            },
+        ],
+
+    },
+    {
+        groupName: 'Admin',
+        groupItems: [
+            {
+                id: 1,
+                name: 'Profile',
+                icon: <CiUser />,                
+                path:'/admin/profile',
+            },
+            {
+                id: 2,
+                name: 'Settings',
+                icon: <GoGear />,                
+                path:'/admin/settings',
+            },
+            {
+                id: 3,
+                name: 'Logout',
+                icon: <IoIosLogOut />,
+                path:'/admin/logout',
+                color: 'red'
 
             },
         ],
