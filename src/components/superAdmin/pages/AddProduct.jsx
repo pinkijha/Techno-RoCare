@@ -14,7 +14,8 @@ const AddProduct = () => {
       <input
         type="text"
         placeholder="Enter Product Name"
-        className="w-full p-2 border border-gray-300 rounded-md focus:outline-none focus:ring-1 focus:ring-blue-300 mb-5"
+        className="w-full p-2 border border-gray-300 rounded-md focus:outline-none focus:ring-1
+         focus:ring-blue-300 mb-5"
       />
 
       <label className="block font-semibold mb-1">Product Category</label>
@@ -56,7 +57,7 @@ const AddProduct = () => {
       ></textarea>
 
        {/* Submit Button */}
-       <button className="bg-[#7EC1B1] cursor-pointer text-white px-6 py-2 rounded-md hover:bg-teal-500 transition duration-300">
+       <button className="bg-[#7EC1B1] cursor-pointer text-white px-6 py-2 rounded-md hover:bg-[#25803D] transition duration-300">
           Add Product
         </button>
     </div>

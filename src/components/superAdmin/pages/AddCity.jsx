@@ -17,7 +17,7 @@ const AddCity = () => {
         <option>Draft</option>
       </select>
 
-      <button className="bg-[#7EC1B1] text-white px-6 py-2 rounded-md hover:bg-teal-500 transition duration-300">
+      <button className="bg-[#7EC1B1] text-white px-6 py-2 rounded-md hover:bg-[#25803D] transition duration-300">
         Add City
       </button>
     </div>

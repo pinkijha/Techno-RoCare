@@ -30,7 +30,7 @@ const SendNotification = () => {
       </select>     
 
        {/* Submit Button */}
-       <button className="bg-[#7EC1B1] cursor-pointer text-white px-6 py-2 rounded-md hover:bg-teal-500 transition duration-300">
+       <button className="bg-[#7EC1B1] cursor-pointer text-white px-6 py-2 rounded-md hover:bg-[#25803D] transition duration-300">
           Send Notification
         </button>
     </div>

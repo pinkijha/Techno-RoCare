@@ -57,7 +57,7 @@ const AddTimeSlot = () => {
       
        {/* Submit Button */}
        <button className="bg-[#7EC1B1] mt-3 cursor-pointer w-[200px]
-        text-white px-6 py-2 rounded-md hover:bg-teal-500 transition duration-300">
+        text-white px-6 py-2 rounded-md hover:bg-[#25803D] transition duration-300">
           Add Timeslot & date
         </button>
     </div>
