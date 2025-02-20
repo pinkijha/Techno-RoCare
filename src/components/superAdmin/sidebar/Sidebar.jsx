@@ -18,8 +18,8 @@ const Sidebar = () => {
            <NavLink to={path} className="items-center">
              <ul key={id} className='flex space-y-2 text-[15px] hover:rounded-xl hover:bg-[#7EC1B1] hover:text-white
             font-semibold text-[#7EC1B1] space-x-4 p-2'>
-                <li className={`text-xl cursor-pointer ${color ==='red' ? 'text-[#C17E7F]': '' }`}>{icon}</li>
-                <li className={`${color ==='red' ? 'text-[#C17E7F]': '' } cursor-pointer`}>{name}</li>
+                <li className={`text-xl cursor-pointer ${color ==='red' ? 'text-[#ef393c]': '' }`}>{icon}</li>
+                <li className={`${color ==='red' ? 'text-[#ef393c]': '' } cursor-pointer`}>{name}</li>
             </ul>
            </NavLink>
         ))}
