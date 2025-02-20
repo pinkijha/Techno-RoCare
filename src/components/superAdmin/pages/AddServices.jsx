@@ -2,8 +2,8 @@ import React from "react";
 
 const AddServices = () => {
   return (
-    <div className="h-screen flex rounded-xl shadow-sm  bg-white">
-      <div className="px-6 py-5 w-full max-w-3xl ">
+    <div className="h-screen p-6 rounded-xl shadow-sm  bg-white">
+     
         {/* Service Name */}
         <label className="text-lg font-semibold text-gray-700 mb-1 block">
           Service Name
@@ -56,7 +56,7 @@ const AddServices = () => {
         <button className="bg-[#7EC1B1] text-white px-6 py-2 rounded-md hover:bg-[#25803D] transition duration-300">
           Add Service
         </button>
-      </div>
+     
     </div>
   );
 };

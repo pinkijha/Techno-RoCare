@@ -2,8 +2,8 @@ import React from 'react'
 
 const AddCity = () => {
   return (
-    <div className="h-screen flex rounded-xl shadow-sm  bg-white ">
-    <div className="p-6 w-full max-w-3xl ">
+    <div className="h-screen  rounded-xl shadow-sm p-6 bg-white ">
+    
       <h2 className="text-lg font-semibold text-gray-700 mb-2">City Name</h2>
       <input
         type="text"
@@ -20,7 +20,7 @@ const AddCity = () => {
       <button className="bg-[#7EC1B1] text-white px-6 py-2 rounded-md hover:bg-[#25803D] transition duration-300">
         Add City
       </button>
-    </div>
+   
   </div>
   )
 }
