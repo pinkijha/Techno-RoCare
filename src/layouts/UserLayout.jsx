@@ -20,21 +20,19 @@ const UserLayout = () => {
 
       {/* Main Content (Grows to push footer down) */}
 
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route index element={<Home />} />
-        <Route path="/services" element={<Services />} />
-        <Route path="/services" element={<Products />} />
-        <Route path="/products" element={<Products />} />
-        <Route path="/terms-conditions" element={<TermsCondition />} />
-        <Route path="/about-us" element={<About />} />
-        <Route path="/contact-us" element={<Contact />} />
-        <Route
-          path="/register-professional"
-          element={<RegisterProfessional />}
-        />
-        <Route path="/chat" element={<ChatWithUs />} />
-      </Routes>
+      <main className="flex-grow">
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route index element={<Home />} />
+          <Route path="/services" element={<Services />} />
+          <Route path="/products" element={<Products />} />
+          <Route path="/terms-conditions" element={<TermsCondition />} />
+          <Route path="/about-us" element={<About />} />
+          <Route path="/contact-us" element={<Contact />} />
+          <Route path="/register-professional" element={<RegisterProfessional />} />
+          <Route path="/chat" element={<ChatWithUs />} />
+        </Routes>
+      </main>
 
       {/* Footer at the Bottom */}
       <Footer />

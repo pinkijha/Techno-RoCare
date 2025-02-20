@@ -6,7 +6,7 @@ import { NavLink } from "react-router-dom";
 
 const Footer = () => {
   return (
-    <footer className=" bg-[#7EC1B1] text-black mt-4 p-10">
+    <footer className="  bg-[#7EC1B1] text-black mt-4 p-10">
       <div className="max-w-7xl mx-auto">
         {/* Logo */}
         <div className="mb-10">
